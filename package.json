@@ -1,0 +1,9 @@
+{
+  "name": "tags-to-title",
+  "title": "tags2title",
+  "id": "jid1-nS8WKJB7XgQ0pA",
+  "description": "If the current page is bookmarked and tagged, add the tags to the tab title",
+  "author": "2ion",
+  "license": "GNU GPL 3.0",
+  "version": "0.1"
+}
