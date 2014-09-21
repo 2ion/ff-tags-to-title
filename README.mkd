@@ -1,0 +1,17 @@
+### ff-tags-to-title
+
+Simple Firefox addon that, if the current page has been bookmarked and
+tagged, adds the tags to the displayed tab title.
+
+#### Build
+
+Install the Firefox SDK, source its bin/activate script in Bash, change
+into this addon's directory and run:
+```
+cfx xpi
+```
+Install the resulting XPI file as usual in Firefox.
+
+#### License
+
+GNU GPL 3.0
