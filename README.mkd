@@ -3,7 +3,7 @@
 Simple Firefox addon that, if the current page has been bookmarked and
 tagged, adds the tags to the displayed tab title.
 
-#### Build
+#### Build on Firefox \< 38
 
 Install the Firefox SDK, source its bin/activate script in Bash, change
 into this addon's directory and run:
@@ -11,6 +11,16 @@ into this addon's directory and run:
 cfx xpi
 ```
 Install the resulting XPI file as usual in Firefox.
+
+#### Build on Firefox \>= 38
+
+From Firefox 38 onwards, jpm is used instead of cfx/the old addon SDK
+for building the extension. The jpm port of this addon lives on a
+different branch:
+```
+git checkout jpm-port
+jpm xpi
+```
 
 #### License
 
