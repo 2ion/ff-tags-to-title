@@ -3,8 +3,9 @@
   "title": "tags2title",
   "id": "jid1-nS8WKJB7XgQ0pA@jetpack",
   "description": "Display page tags as part of the tab title",
-  "author": "2ion",
+  "author": "2ion <dev@2ion.de>",
   "license": "GNU GPL 3.0",
   "version": "0.2.0",
-  "main": "lib/main.js"
+  "main": "lib/main.js",
+  "homepage": "https://github.com/2ion/ff-tags-to-title"
 }
