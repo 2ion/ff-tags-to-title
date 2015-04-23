@@ -3,6 +3,11 @@
 Simple Firefox addon that, if the current page has been bookmarked and
 tagged, adds the tags to the displayed tab title.
 
+
+#### Installation on Arch Linux
+
+You may install the package from the [AUR](https://aur.archlinux.org/packages/firefox-tags2title).
+
 #### Build on Firefox \< 38
 
 Install the Firefox SDK, source its bin/activate script in Bash, change
